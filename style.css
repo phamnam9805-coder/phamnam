@@ -1,0 +1,95 @@
+.chan {
+        background-color: aquamarine;color: blanchedalmond;
+    }
+.le{
+    background-color: aqua;color: brown;
+}    
+p{
+    background-color: aquamarine;color: beige;
+}
+#para3{
+    background-color: blue;color: chocolate;
+}
+p{
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    font-style: italic;
+    font-weight: 500;
+    text-decoration: dotted underline;
+}
+p{
+    border-style: dotted;
+    border-width: 5px;
+    border-color: aqua;
+    border-radius: 10px;
+    padding: 10px;
+}
+p{background:linear-gradient(to right, skyblue,lightgreen) ;
+background-repeat: no-repeat;background-attachment: fixed;
+}
+h1{ background:linear-gradient(to left, skyblue,lightgreen) ;
+background-repeat: no-repeat;background-attachment: fixed;}
+body { background-image: url(game.png) ;
+background-repeat: no-repeat;
+background-attachment: fixed;
+background-position: center;}
+#para1{
+    width: 300px ;
+    height:300px ;
+    border-style: solid;
+    background-color: blue;
+}
+#para5{
+    width: 200px;
+    height: 200px;
+    background-color: chocolate;
+    margin: auto;
+    padding: 20px;
+}
+#box1{
+    border: 1px solid black;
+    width: 300px;
+    height: 300px;
+    background-color: antiquewhite;
+    position:fixed;
+    top: 5px;
+    transform:translateX(40px) ;
+    transform: rotateX(180deg);
+    transform: translate(40px,50px);
+    transform: rotateY('180deg');
+    transform: scaleX(2);
+    transform: scaleY(2);
+    transform: skewX(45deg);
+    transform: skewY(45deg);
+    transform: skew(20deg,20deg);
+    transform: matrix(0,0,0,0,0,0);    
+}
+#box2{
+    border: 1px solid black;
+    width: 100px;
+    height: 100px;
+    background-color: gold;
+    position: sticky;
+    top: 10px;
+}
+p{
+    text-shadow:20px yellow;
+    box-shadow: 10px deeppink;
+}
+button:hover{
+    background-color: red;
+}
+button:active{
+    background-color: green;
+}
+li:nth-child(even){
+    color: aquamarine;
+}
+@media all and (max-width: 768px){
+
+   h1{color: red;}
+}
+@media all and (max-width: 480px){
+
+   h1{color:yellow;}
+}
